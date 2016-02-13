@@ -10,6 +10,19 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="ekspeditionsprogram.cpp" />
+    <ClCompile Include="KasseKnap.cpp" />
+    <ClCompile Include="Nummerstander.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="KasseKnap.h" />
+    <ClInclude Include="Nummerstander.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A67666F9-53C5-46B9-B8DC-64B33C123ACE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,9 +88,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
