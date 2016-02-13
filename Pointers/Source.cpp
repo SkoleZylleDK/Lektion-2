@@ -7,7 +7,7 @@ int main()
 	char myChar = 'a';
 	char *myCharPtr = &myChar;
 
-	cout << myChar << endl;				// Udskriver et 'a'
+	cout << myChar << endl;				// Udskriver udskriver indholdet af myChar, altså et 'a'
 
 	cout << &myChar << endl;			// Udskriver addressen til myChar
 
