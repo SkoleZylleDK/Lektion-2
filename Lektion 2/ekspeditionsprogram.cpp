@@ -20,8 +20,10 @@ int main()
 	// erklæring af objekter og variable
 	
 	Nummerstander Stander;
-	Display Display1(1), Display2(2), Display3(3);
-	KasseKnap knap1(&Stander, &Display1), knap2(&Stander, &Display2), knap3(&Stander, &Display3);
+	Display		Display1(1), Display2(2), Display3(3);
+	KasseKnap	knap1(&Stander, &Display1), 
+				knap2(&Stander, &Display2), 
+				knap3(&Stander, &Display3);
 
 	char tast;
 

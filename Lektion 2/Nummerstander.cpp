@@ -2,8 +2,8 @@
 
 Nummerstander::Nummerstander()
 {
-	senestEkspederedeNummer_ = 99;
-	senestTrukneNummer_ = 99;
+	senestEkspederedeNummer_ = 0;
+	senestTrukneNummer_ = 0;
 }
 
 void Nummerstander::treakNummer()

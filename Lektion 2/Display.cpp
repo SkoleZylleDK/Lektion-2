@@ -6,7 +6,7 @@
 Display::Display( int idNummer )
 {
 	idNummer_ = ( idNummer>0 && idNummer<4 ? idNummer : 0 );
-	opdater(99);
+	opdater(00);
 }
 
 
